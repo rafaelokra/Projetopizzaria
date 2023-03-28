@@ -1,0 +1,163 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+#header{
+    background-color: red;
+    z-index: 1;
+    
+}
+body{
+    background-color: #ffa07a;
+}
+#h1-header{
+    color: #fff;
+    padding-left: 5PX;
+    padding-top: 3px;
+    padding-bottom: 1px;
+}
+.h3-header{
+    color: #fff;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-left: 5PX;
+    padding-top: 3px;
+    padding-bottom: 1px;
+}
+.link-cabeçalho{
+    text-decoration:none ;
+    color: #fff;
+    white-space: 5px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#navegaçao{
+    text-align: right;
+    padding-right: 5px;
+}
+.section-1{
+    color: #fff;
+    background-color: red;
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+    height: 160px;
+    border-radius: 12px;
+}
+.section-2{
+    background-color: red;
+    margin:0auto;
+    width: 90%;
+    max-width: 100%;
+    height: 180px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+#section-grid{
+    margin: 0 auto;
+    padding: 10px;
+    height: 180%;
+    padding-bottom: 20px;
+}
+
+
+
+.grid{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.608);
+    display: grid;
+    grid-template-columns: repeat(, minmax(300px, 1fr));
+    grid-column-gap: 10px;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+    
+    
+    
+}
+.sub-grid-1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 20%;
+    padding-bottom: 20px;
+    background-color: #fff;
+    margin: 2px;
+}
+.sub-grid-2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 20%;
+    padding-bottom: 20px;
+    background-color: #fff;
+    margin: 2px;
+}
+.sub-grid-3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 20%;
+    padding-bottom: 20px;
+    background-color: #fff;
+    margin: 2px;
+}
+.h2-section1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding-top: 27px;
+}
+.p1{
+    padding-top: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+.img-pizza{
+    max-width: 100%;
+}
+.h2-cardapio{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    color: #fff;
+}
+.h2-sub-grid{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: red;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.p-preços{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: red;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.botao-acao{
+    width: 70%;
+   background-color: red;
+   color: #fff;
+   font-size: 18px;
+   border-radius: 5px;
+   padding-top: 5px;
+   text-align: center;
+
+   cursor: pointer;
+}
+.botao-acao:hover{
+text-decoration: underline;
+}
+.link-cabeçalho{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5px;
+}
+.link-cabeçalho:hover{
+    color: yellow;
+    transition: cubic-bezierall ease-in-out;
+  text-transform: uppercase;
+
+    
+}
